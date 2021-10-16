@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/preview-credit-card/static/css/main.90e1b80d.chunk.css",
+    "main.js": "/preview-credit-card/static/js/main.178c5c03.chunk.js",
+    "main.js.map": "/preview-credit-card/static/js/main.178c5c03.chunk.js.map",
+    "runtime-main.js": "/preview-credit-card/static/js/runtime-main.458f8799.js",
+    "runtime-main.js.map": "/preview-credit-card/static/js/runtime-main.458f8799.js.map",
+    "static/js/2.0ae8a220.chunk.js": "/preview-credit-card/static/js/2.0ae8a220.chunk.js",
+    "static/js/2.0ae8a220.chunk.js.map": "/preview-credit-card/static/js/2.0ae8a220.chunk.js.map",
+    "index.html": "/preview-credit-card/index.html",
+    "precache-manifest.a3dbae77fdb2cea60c1b047af7688522.js": "/preview-credit-card/precache-manifest.a3dbae77fdb2cea60c1b047af7688522.js",
+    "service-worker.js": "/preview-credit-card/service-worker.js",
+    "static/css/main.90e1b80d.chunk.css.map": "/preview-credit-card/static/css/main.90e1b80d.chunk.css.map",
+    "static/js/2.0ae8a220.chunk.js.LICENSE": "/preview-credit-card/static/js/2.0ae8a220.chunk.js.LICENSE",
+    "static/media/index.css": "/preview-credit-card/static/media/Montserrat-R.ee653992.ttf",
+    "static/media/CreditCardImage.css": "/preview-credit-card/static/media/visa.89225e85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.458f8799.js",
+    "static/js/2.0ae8a220.chunk.js",
+    "static/css/main.90e1b80d.chunk.css",
+    "static/js/main.178c5c03.chunk.js"
+  ]
+}

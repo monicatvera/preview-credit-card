@@ -1,2 +1,2 @@
-# CreditCard App
+# Credit card preview app
 ## Click here -> 

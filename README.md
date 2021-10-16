@@ -12,7 +12,7 @@ This application is a small application of a credit card form with live data upd
 # Running 📱💻
 
 visualization of the project working
-[▶️click me](https://monicatvera.github.io/preview-credit-card)
+[▶️click me](https://monicatvera.github.io/preview-credit-card/)
 
 ### Prerequisites
 You need a working environment with:

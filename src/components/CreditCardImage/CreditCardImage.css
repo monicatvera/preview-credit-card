@@ -1,0 +1,165 @@
+
+.creditCard {
+    height: 14rem;
+    width: 22rem;
+    border-radius: 10px;
+    position: absolute;
+    top: .5rem;
+    background-size: cover;
+    transition:  .3s ease all;
+    transform-style: preserve-3d;
+    z-index: 20;
+    user-select: none;
+    cursor: pointer;
+}
+
+.creditCard.active {
+    transform: rotateY(180deg);
+}
+
+.front {
+    background-image: url('../../images/creditcardFront.jpg');
+
+}
+
+.back {
+    background-image: url('../../images/creditcardBack.jpg');
+    transform: rotateY(180deg);
+    backface-visibility: hidden ;
+}
+
+/*CREDIT CARD - FRONT PART*/
+
+.group-logo {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.logo {
+    height: 2rem;
+    width: 3.4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mastercard {
+    background-image: url('../../images/mastercard.png');
+}
+
+.visa {
+    background-image: url('../../images/visa.png');
+}
+
+.group-chip {
+    padding-left: 1.5rem;
+}
+
+.chip {
+    height: 2rem;
+    width: 3.3rem;
+    background-image: url('../../images/chip.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.group-num {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.group-numCard {
+    display: flex;
+}
+
+.label {
+    color: #8d8d8d;
+    font-size: .7rem;
+}
+.num{
+    color: #d3d3d3;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.group-nameDate {
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-date {
+    padding-right: 1rem;
+}
+
+.name {
+    color: #d3d3d3;
+    font-size: 1rem;
+}
+
+.date {
+    color: #d3d3d3;
+    font-size: .8rem;
+}
+
+/*CREDIT CARD - BACK PART*/
+
+.group-tape {
+    height: 4rem;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.tape-div {
+    background-color: #080808;
+    height: 2rem;
+    width: 100%;
+}
+
+.group-sign-ccv {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+}
+
+.group-sign {
+    width: 70%;
+    padding-left: 1rem;
+    overflow: hidden;
+}
+
+.sign-div {
+    height: 1.7rem;
+    width: 13rem;
+    padding-left:.5rem ;
+    font-family: 'IndieFlower-R';
+    font-size: 1.4rem;
+    background:repeating-linear-gradient(45deg, #e5eff1, #e5eff1 5px, #cad0d1 5px, #cad0d1 10px);
+}
+
+.group-ccv {
+    width: 30%;
+    padding-left: 2rem;
+}
+
+.ccv-div {
+    background-color: #e5eff1;
+    height: 1.7rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-info {
+    text-align: center;
+    padding: 1rem;
+}
+
+.info { 
+    color: #e5eff1 ;
+    font-size: .7rem;
+}

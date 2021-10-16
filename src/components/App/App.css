@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --color-dark1: #1a1a1a;
+  --color-light1: #999999;
+  --color-background: #222;
+}

@@ -1,0 +1,135 @@
+.creditCardForm {
+    height: 20.5rem;
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 12rem;
+    font-size: .8rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem ;
+    position: relative;
+    transition: all .8s;
+    z-index: 10;
+    box-shadow: 10px 20px 5px rgba(0,0,0,.2);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.creditCardForm.activeForm {
+    transition: all .8s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.creditCardForm input, select {
+    height: 1.7rem;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #b9d4dd;
+    text-transform: uppercase;
+}
+
+select {
+    padding:  0  0  0 .5rem;
+}
+
+label {
+    padding:  0  0 .2rem 0;
+}
+
+.creditCardForm input:focus {
+    box-shadow: 0 0 4px .1px #999999;
+    outline: none;
+}
+
+.creditCardForm select:focus {
+    box-shadow: 0 0 4px .1px #999999;
+    outline: none;
+}
+
+.field-form-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: .5rem;
+
+}
+
+.field-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.btn-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btnSubmit {
+    height: 1.7rem;
+    width: 100%;
+    background-color: var(--color-dark1);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.btnSubmit:active {
+    transform: scale(.98);
+}
+
+.btnSubmit:hover {
+    background-color: #999999;
+}
+
+.close-form {
+    background-color: var(--color-dark1);
+    background-image: url('../../images/close.png');
+    background-repeat: cover;
+    background-size: contain;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:  0 auto;
+    cursor: pointer;
+    will-change: transform;
+    transition: transform .5s;
+    z-index: 30;
+}
+
+.close-form:hover {
+    background-color: #999999;
+}
+
+.active {
+    will-change: transform;
+    transform: rotate(45deg);
+    transition: transform .5s;
+}
+
+.field-form-numCard {
+    display: grid;  
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 3rem 1rem 3rem 1rem 3rem 1rem 3rem;
+    gap: .3rem;
+}
+
+.numCard-input {
+    text-align: center;
+}
+
+.field-form-numCard span {
+    font-size: 2rem;
+    color: #526169;
+}
